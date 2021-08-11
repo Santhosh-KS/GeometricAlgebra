@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5F873126B6CF0B0067EA0D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F873026B6CF0B0067EA0D /* main.swift */; };
+		2C5F876426B6D5F20067EA0D /* GeometricVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F873726B6CF3E0067EA0D /* GeometricVector.swift */; };
+		2C5F877326B6D9E30067EA0D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F877226B6D9E30067EA0D /* Tests.swift */; };
+		2C5F877826B6DA0A0067EA0D /* GeometricVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F873726B6CF3E0067EA0D /* GeometricVector.swift */; };
+		2C5F877926B6DA170067EA0D /* GeometricVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F873726B6CF3E0067EA0D /* GeometricVector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C5F876A26B6D9540067EA0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5F872526B6CF0B0067EA0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5F875D26B6D5B20067EA0D;
+			remoteInfo = LibGeometricAlgebra;
+		};
+		2C5F877A26B6DA480067EA0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5F872526B6CF0B0067EA0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5F875D26B6D5B20067EA0D;
+			remoteInfo = LibGeometricAlgebra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C5F872B26B6CF0B0067EA0D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C5F872D26B6CF0B0067EA0D /* GeometricAlgebra */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeometricAlgebra; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5F873026B6CF0B0067EA0D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2C5F873726B6CF3E0067EA0D /* GeometricVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometricVector.swift; sourceTree = "<group>"; };
+		2C5F875E26B6D5B20067EA0D /* LibGeometricAlgebra.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibGeometricAlgebra.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5F876026B6D5B20067EA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5F877026B6D9E30067EA0D /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5F877226B6D9E30067EA0D /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		2C5F877426B6D9E30067EA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5F872A26B6CF0B0067EA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5F875B26B6D5B20067EA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5F876D26B6D9E30067EA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5F872426B6CF0B0067EA0D = {
+			isa = PBXGroup;
+			children = (
+				2C5F872F26B6CF0B0067EA0D /* GeometricAlgebra */,
+				2C5F875F26B6D5B20067EA0D /* LibGeometricAlgebra */,
+				2C5F877126B6D9E30067EA0D /* Tests */,
+				2C5F872E26B6CF0B0067EA0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C5F872E26B6CF0B0067EA0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F872D26B6CF0B0067EA0D /* GeometricAlgebra */,
+				2C5F875E26B6D5B20067EA0D /* LibGeometricAlgebra.bundle */,
+				2C5F877026B6D9E30067EA0D /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C5F872F26B6CF0B0067EA0D /* GeometricAlgebra */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F873026B6CF0B0067EA0D /* main.swift */,
+			);
+			path = GeometricAlgebra;
+			sourceTree = "<group>";
+		};
+		2C5F875F26B6D5B20067EA0D /* LibGeometricAlgebra */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F873726B6CF3E0067EA0D /* GeometricVector.swift */,
+				2C5F876026B6D5B20067EA0D /* Info.plist */,
+			);
+			path = LibGeometricAlgebra;
+			sourceTree = "<group>";
+		};
+		2C5F877126B6D9E30067EA0D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F877226B6D9E30067EA0D /* Tests.swift */,
+				2C5F877426B6D9E30067EA0D /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5F872C26B6CF0B0067EA0D /* GeometricAlgebra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5F873426B6CF0B0067EA0D /* Build configuration list for PBXNativeTarget "GeometricAlgebra" */;
+			buildPhases = (
+				2C5F872926B6CF0B0067EA0D /* Sources */,
+				2C5F872A26B6CF0B0067EA0D /* Frameworks */,
+				2C5F872B26B6CF0B0067EA0D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5F876B26B6D9540067EA0D /* PBXTargetDependency */,
+			);
+			name = GeometricAlgebra;
+			productName = GeometricAlgebra;
+			productReference = 2C5F872D26B6CF0B0067EA0D /* GeometricAlgebra */;
+			productType = "com.apple.product-type.tool";
+		};
+		2C5F875D26B6D5B20067EA0D /* LibGeometricAlgebra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5F876126B6D5B20067EA0D /* Build configuration list for PBXNativeTarget "LibGeometricAlgebra" */;
+			buildPhases = (
+				2C5F875A26B6D5B20067EA0D /* Sources */,
+				2C5F875B26B6D5B20067EA0D /* Frameworks */,
+				2C5F875C26B6D5B20067EA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibGeometricAlgebra;
+			productName = LibGeometricAlgebra;
+			productReference = 2C5F875E26B6D5B20067EA0D /* LibGeometricAlgebra.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C5F876F26B6D9E30067EA0D /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5F877526B6D9E30067EA0D /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				2C5F876C26B6D9E30067EA0D /* Sources */,
+				2C5F876D26B6D9E30067EA0D /* Frameworks */,
+				2C5F876E26B6D9E30067EA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5F877B26B6DA480067EA0D /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 2C5F877026B6D9E30067EA0D /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C5F872526B6CF0B0067EA0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2C5F872C26B6CF0B0067EA0D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2C5F875D26B6D5B20067EA0D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2C5F876F26B6D9E30067EA0D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 2C5F872826B6CF0B0067EA0D /* Build configuration list for PBXProject "GeometricAlgebra" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C5F872426B6CF0B0067EA0D;
+			productRefGroup = 2C5F872E26B6CF0B0067EA0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5F872C26B6CF0B0067EA0D /* GeometricAlgebra */,
+				2C5F875D26B6D5B20067EA0D /* LibGeometricAlgebra */,
+				2C5F876F26B6D9E30067EA0D /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5F875C26B6D5B20067EA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5F876E26B6D9E30067EA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5F872926B6CF0B0067EA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F877926B6DA170067EA0D /* GeometricVector.swift in Sources */,
+				2C5F873126B6CF0B0067EA0D /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5F875A26B6D5B20067EA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F876426B6D5F20067EA0D /* GeometricVector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5F876C26B6D9E30067EA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F877826B6DA0A0067EA0D /* GeometricVector.swift in Sources */,
+				2C5F877326B6D9E30067EA0D /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C5F876B26B6D9540067EA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5F875D26B6D5B20067EA0D /* LibGeometricAlgebra */;
+			targetProxy = 2C5F876A26B6D9540067EA0D /* PBXContainerItemProxy */;
+		};
+		2C5F877B26B6DA480067EA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5F875D26B6D5B20067EA0D /* LibGeometricAlgebra */;
+			targetProxy = 2C5F877A26B6DA480067EA0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C5F873226B6CF0B0067EA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C5F873326B6CF0B0067EA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2C5F873526B6CF0B0067EA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 697GQY4NTA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C5F873626B6CF0B0067EA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 697GQY4NTA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2C5F876226B6D5B20067EA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 697GQY4NTA;
+				INFOPLIST_FILE = LibGeometricAlgebra/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santman.LibGeometricAlgebra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2C5F876326B6D5B20067EA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 697GQY4NTA;
+				INFOPLIST_FILE = LibGeometricAlgebra/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santman.LibGeometricAlgebra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2C5F877626B6D9E30067EA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 697GQY4NTA;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.santman.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C5F877726B6D9E30067EA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 697GQY4NTA;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.santman.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5F872826B6CF0B0067EA0D /* Build configuration list for PBXProject "GeometricAlgebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5F873226B6CF0B0067EA0D /* Debug */,
+				2C5F873326B6CF0B0067EA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5F873426B6CF0B0067EA0D /* Build configuration list for PBXNativeTarget "GeometricAlgebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5F873526B6CF0B0067EA0D /* Debug */,
+				2C5F873626B6CF0B0067EA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5F876126B6D5B20067EA0D /* Build configuration list for PBXNativeTarget "LibGeometricAlgebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5F876226B6D5B20067EA0D /* Debug */,
+				2C5F876326B6D5B20067EA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5F877526B6D9E30067EA0D /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5F877626B6D9E30067EA0D /* Debug */,
+				2C5F877726B6D9E30067EA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C5F872526B6CF0B0067EA0D /* Project object */;
+}
